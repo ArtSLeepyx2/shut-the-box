@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Yusei+Magic&display=swap');
+/* basic css reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+img{
+    display:block;
+    max-width: 100%;
+}
+/* basic css reset */
+:root{
+    scroll-behavior: smooth;
+}
+main{
+    text-align: center;
+    padding: 5vw;
+}
+h1{
+    font-family: "Rubik Iso", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+}
+h2{
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.input-div{
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+input{
+    align-items: center;
+    width: 30%;
+    height: 3vw;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+#start-btn{
+    padding: 1rem;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#start-btn:hover{
+    background-color: #BBC0C1;
+    color: white;
+}
+.button-div{
+    margin: 3rem;
+}
+.game-btns{
+    text-align: center;
+    font-size: 1.5vw;
+    width: 10%;
+    margin: 3.5px;
+    padding: 8px;
+    border: 10px groove #BBC0C1;
+}
+.game-btns:hover{
+    border-width: 7px;
+    background-color: grey;
+}
+.round-div{
+
+}
+.round{
+    display: inline-block;
+
+}
+.vs{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.player-turn{
+    margin-left: 15vw;
+    display: inline-block;
+    text-decoration: underline;
+
+}
+.card-number{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.card{
+    margin: 0.3rem;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 1.8vw;
+    font-size: 2rem;
+}
+.shut{
+ background-color: black;
+ color: white;
+}
+.dices{
+    font-size: 5rem;
+}
+.score-div{
+    margin-top: 5vh;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+}
+th {
+    background-color: #f5f5f5;
+}
+.total-row {
+    font-weight: bold;
+    background-color: #dff0d8;
+}
+.winner{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+#play-again-btn{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    font-size: 2rem;
+}
